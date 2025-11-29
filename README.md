@@ -2,8 +2,8 @@
 
 
 A digital slot machine implemented in **VHDL** as part of the *Digital System Fundamentals* course. This project runs on an FPGA and demonstrates practical digital design concepts such as finite state machines, display control, and modular hardware architecture.
-
----
+  
+<br>
 
 ## 📌 Overview
 
@@ -14,7 +14,7 @@ I was responsible for two major components:
 * **Display System** – Designs and drives the output display modules.
 * **Main Control Logic** – Implements the state machine and manages the overall flow between modules.
 
----
+<br>
 
 ## 🎯 Features
 
@@ -25,7 +25,7 @@ I was responsible for two major components:
 * LED/7-segment display driver
 * Debounced push-button input handling
 
----
+<br>
 
 ## 🎥 Demo
 
@@ -33,7 +33,7 @@ Watch the gameplay demo on YouTube:
 
 [![Gameplay Demo](https://img.youtube.com/vi/kLzNHlMK-ao/0.jpg)](https://youtu.be/kLzNHlMK-ao)
 
----
+<br>
 
 ## 🧩 System Architecture
 
@@ -44,7 +44,7 @@ Watch the gameplay demo on YouTube:
 * **Display Controller** – Converts slot values to output signals
 * **Clock Divider** – Adjusts the FPGA clock for human-visible display updates
 
----
+<br>
 
 ## 🛠 Technologies & Tools
 
@@ -52,7 +52,7 @@ Watch the gameplay demo on YouTube:
 * **Xilinx ISE 14.7** (synthesis & FPGA programming)
 * FPGA board (e.g., **Basys 3**, **Nexys**, or equivalent)
 
----
+<br>
 
 ## 🙋‍♂️ My Contribution
 
@@ -63,15 +63,15 @@ I was responsible for the **core logic and video system**, specifically:
 * **debounce.vhd** — stable button/signal handling to avoid glitch inputs
 * Integrating VGA timing, pixel drawing pipeline, and on-screen animations
 
----
+<br>
 
-### 🔗 Note on Missing Components
+## 🔗 Note on Missing Components
 
 Only my part of the project is included in this repository.
 My teammate handled the **coin/credit module**, which is essential to start the game (INSERT COIN logic).
 My code expects this module to provide the credit signal, but it is not included here.
 
----
+<br>
 
 ## 📬 Contact
 
