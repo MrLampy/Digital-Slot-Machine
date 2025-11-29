@@ -1,0 +1,38 @@
+xst -intstyle ise -ifn "/home/ise/Digital/VGA_test/top_vga.xst" -ofn "/home/ise/Digital/VGA_test/top_vga.syr" 
+xst -intstyle ise -ifn "/home/ise/Digital/VGA_test/top_vga.xst" -ofn "/home/ise/Digital/VGA_test/top_vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top_vga.ucf -p xc6slx9-tqg144-3 top_vga.ngc top_vga.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_vga_map.ncd top_vga.ngd top_vga.pcf 
+par -w -intstyle ise -ol high -mt off top_vga_map.ncd top_vga.ncd top_vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_vga.twx top_vga.ncd -o top_vga.twr top_vga.pcf -ucf top_vga.ucf 
+bitgen -intstyle ise -f top_vga.ut top_vga.ncd 
+xst -intstyle ise -ifn "/home/ise/Digital/VGA_test/top_vga.xst" -ofn "/home/ise/Digital/VGA_test/top_vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top_vga.ucf -p xc6slx9-tqg144-3 top_vga.ngc top_vga.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_vga_map.ncd top_vga.ngd top_vga.pcf 
+par -w -intstyle ise -ol high -mt off top_vga_map.ncd top_vga.ncd top_vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_vga.twx top_vga.ncd -o top_vga.twr top_vga.pcf -ucf top_vga.ucf 
+bitgen -intstyle ise -f top_vga.ut top_vga.ncd 
+xst -intstyle ise -ifn "/home/ise/Digital/VGA_test/top_vga.xst" -ofn "/home/ise/Digital/VGA_test/top_vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top_vga.ucf -p xc6slx9-tqg144-3 top_vga.ngc top_vga.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_vga_map.ncd top_vga.ngd top_vga.pcf 
+par -w -intstyle ise -ol high -mt off top_vga_map.ncd top_vga.ncd top_vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_vga.twx top_vga.ncd -o top_vga.twr top_vga.pcf -ucf top_vga.ucf 
+bitgen -intstyle ise -f top_vga.ut top_vga.ncd 
+xst -intstyle ise -ifn "/home/ise/Digital/VGA_test/top_vga.xst" -ofn "/home/ise/Digital/VGA_test/top_vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top_vga.ucf -p xc6slx9-tqg144-3 top_vga.ngc top_vga.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top_vga.ucf -p xc6slx9-tqg144-3 top_vga.ngc top_vga.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_vga_map.ncd top_vga.ngd top_vga.pcf 
+par -w -intstyle ise -ol high -mt off top_vga_map.ncd top_vga.ncd top_vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_vga.twx top_vga.ncd -o top_vga.twr top_vga.pcf -ucf top_vga.ucf 
+bitgen -intstyle ise -f top_vga.ut top_vga.ncd 
+xst -intstyle ise -ifn "/home/ise/Digital/VGA_test/top_vga.xst" -ofn "/home/ise/Digital/VGA_test/top_vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top_vga.ucf -p xc6slx9-tqg144-3 top_vga.ngc top_vga.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_vga_map.ncd top_vga.ngd top_vga.pcf 
+par -w -intstyle ise -ol high -mt off top_vga_map.ncd top_vga.ncd top_vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_vga.twx top_vga.ncd -o top_vga.twr top_vga.pcf -ucf top_vga.ucf 
+bitgen -intstyle ise -f top_vga.ut top_vga.ncd 
+xst -intstyle ise -ifn "/home/ise/Digital/VGA_test/top_vga.xst" -ofn "/home/ise/Digital/VGA_test/top_vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top_vga.ucf -p xc6slx9-tqg144-3 top_vga.ngc top_vga.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_vga_map.ncd top_vga.ngd top_vga.pcf 
+par -w -intstyle ise -ol high -mt off top_vga_map.ncd top_vga.ncd top_vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_vga.twx top_vga.ncd -o top_vga.twr top_vga.pcf -ucf top_vga.ucf 
+bitgen -intstyle ise -f top_vga.ut top_vga.ncd 

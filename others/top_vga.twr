@@ -1,0 +1,89 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml top_vga.twx top_vga.ncd -o top_vga.twr top_vga.pcf -ucf
+top_vga.ucf
+
+Design file:              top_vga.ncd
+Physical constraint file: top_vga.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk20_in
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+big_btn     |    4.389(R)|      SLOW  |   -2.374(R)|      FAST  |clk25             |   0.000|
+fpga_btn    |    3.241(R)|      SLOW  |   -1.646(R)|      FAST  |clk25             |   0.000|
+insert_coin |    1.919(R)|      SLOW  |   -0.805(R)|      FAST  |clk25             |   0.000|
+sw1         |   16.074(R)|      SLOW  |   -1.920(R)|      FAST  |clk25             |   0.000|
+sw2         |   15.891(R)|      SLOW  |   -1.713(R)|      FAST  |clk25             |   0.000|
+sw3         |   15.672(R)|      SLOW  |   -1.631(R)|      FAST  |clk25             |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock clk20_in to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+LSB         |         7.271(R)|      SLOW  |         4.022(R)|      FAST  |clk25             |   0.000|
+MSB         |         6.816(R)|      SLOW  |         3.673(R)|      FAST  |clk25             |   0.000|
+b2          |         6.963(R)|      SLOW  |         3.821(R)|      FAST  |clk25             |   0.000|
+blue        |         5.434(R)|      SLOW  |         2.925(R)|      FAST  |clk25             |   0.000|
+buzzer      |         6.120(R)|      SLOW  |         3.301(R)|      FAST  |clk25             |   0.000|
+green       |         6.205(R)|      SLOW  |         3.393(R)|      FAST  |clk25             |   0.000|
+hs_out      |         6.053(R)|      SLOW  |         2.916(R)|      FAST  |clk25             |   0.000|
+led         |         7.958(R)|      SLOW  |         4.535(R)|      FAST  |clk25             |   0.000|
+led2        |         5.608(R)|      SLOW  |         2.998(R)|      FAST  |clk25             |   0.000|
+ready       |         8.271(R)|      SLOW  |         4.617(R)|      FAST  |clk25             |   0.000|
+red         |         5.730(R)|      SLOW  |         3.079(R)|      FAST  |clk25             |   0.000|
+reward<0>   |         5.853(R)|      SLOW  |         3.098(R)|      FAST  |clk25             |   0.000|
+reward<1>   |         5.844(R)|      SLOW  |         3.089(R)|      FAST  |clk25             |   0.000|
+reward<2>   |         6.013(R)|      SLOW  |         3.212(R)|      FAST  |clk25             |   0.000|
+vs_out      |         6.595(R)|      SLOW  |         3.124(R)|      FAST  |clk25             |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk20_in
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk20_in       |   23.972|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Thu Nov  6 16:41:02 2025 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 416 MB
+
+
+

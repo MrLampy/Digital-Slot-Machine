@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/Digital/VGA_test/top_vga.ncd
+OUTFILE=/home/ise/Digital/VGA_test/top_vga.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=/home/ise/Digital/VGA_test
+LICENSE=WebPack
+USER_INFO=213487465_0_0_577

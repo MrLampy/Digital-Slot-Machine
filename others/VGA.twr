@@ -1,0 +1,80 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf
+
+Design file:              VGA.ncd
+Physical constraint file: VGA.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk25_in
+-------------+------------+------------+------------+------------+------------------+--------+
+             |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source       | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+-------------+------------+------------+------------+------------+------------------+--------+
+btn          |    8.981(R)|      SLOW  |   -0.049(R)|      SLOW  |clk25_in_BUFGP    |   0.000|
+cheat_mode_on|   16.795(R)|      SLOW  |   -0.272(R)|      SLOW  |clk25_in_BUFGP    |   0.000|
+insert_coin  |   16.857(R)|      SLOW  |   -0.680(R)|      SLOW  |clk25_in_BUFGP    |   0.000|
+-------------+------------+------------+------------+------------+------------------+--------+
+
+Clock clk25_in to Pad
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination  |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+blue         |         8.407(R)|      SLOW  |         4.633(R)|      FAST  |clk25_in_BUFGP    |   0.000|
+buzzer       |         7.556(R)|      SLOW  |         4.046(R)|      FAST  |clk25_in_BUFGP    |   0.000|
+green        |         8.281(R)|      SLOW  |         4.522(R)|      FAST  |clk25_in_BUFGP    |   0.000|
+hs_out       |        10.734(R)|      SLOW  |         5.516(R)|      FAST  |clk25_in_BUFGP    |   0.000|
+ready        |         8.381(R)|      SLOW  |         4.460(R)|      FAST  |clk25_in_BUFGP    |   0.000|
+red          |         8.178(R)|      SLOW  |         4.477(R)|      FAST  |clk25_in_BUFGP    |   0.000|
+reward_out<0>|         8.815(R)|      SLOW  |         4.714(R)|      FAST  |clk25_in_BUFGP    |   0.000|
+reward_out<1>|         8.402(R)|      SLOW  |         4.465(R)|      FAST  |clk25_in_BUFGP    |   0.000|
+reward_out<2>|         9.396(R)|      SLOW  |         5.061(R)|      FAST  |clk25_in_BUFGP    |   0.000|
+vs_out       |        12.157(R)|      SLOW  |         4.789(R)|      FAST  |clk25_in_BUFGP    |   0.000|
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk25_in
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk25_in       |   23.316|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Thu Nov  6 16:13:14 2025 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 415 MB
+
+
+

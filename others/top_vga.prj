@@ -1,0 +1,4 @@
+vhdl work "Display_VGA.vhd"
+vhdl work "debounce.vhd"
+vhdl work "../clk25_gen.vhd"
+vhdl work "main_vga.vhd"

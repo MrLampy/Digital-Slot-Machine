@@ -1,0 +1,29 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Nov 06 16:40:49 2025
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "insert_coin" LOCATE = SITE "P114" LEVEL 1;
+COMP "b2" LOCATE = SITE "P120" LEVEL 1;
+COMP "LSB" LOCATE = SITE "P121" LEVEL 1;
+COMP "MSB" LOCATE = SITE "P119" LEVEL 1;
+COMP "led" LOCATE = SITE "P82" LEVEL 1;
+COMP "sw1" LOCATE = SITE "P62" LEVEL 1;
+COMP "sw2" LOCATE = SITE "P61" LEVEL 1;
+COMP "sw3" LOCATE = SITE "P59" LEVEL 1;
+COMP "red" LOCATE = SITE "P16" LEVEL 1;
+COMP "led2" LOCATE = SITE "P81" LEVEL 1;
+COMP "blue" LOCATE = SITE "P11" LEVEL 1;
+COMP "big_btn" LOCATE = SITE "P24" LEVEL 1;
+COMP "green" LOCATE = SITE "P14" LEVEL 1;
+COMP "ready" LOCATE = SITE "P115" LEVEL 1;
+COMP "clk20_in" LOCATE = SITE "P123" LEVEL 1;
+COMP "reward<0>" LOCATE = SITE "P75" LEVEL 1;
+COMP "reward<1>" LOCATE = SITE "P74" LEVEL 1;
+COMP "reward<2>" LOCATE = SITE "P67" LEVEL 1;
+COMP "fpga_btn" LOCATE = SITE "P47" LEVEL 1;
+COMP "hs_out" LOCATE = SITE "P21" LEVEL 1;
+COMP "buzzer" LOCATE = SITE "P83" LEVEL 1;
+COMP "vs_out" LOCATE = SITE "P23" LEVEL 1;
+SCHEMATIC END;
+
